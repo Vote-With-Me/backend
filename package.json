@@ -1,0 +1,27 @@
+{
+  "name": "vote-with-me",
+  "version": "1.0.0",
+  "description": "Activate your Facebook network to promote voter registration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vote-With-Me/backend.git"
+  },
+  "author": "jasterix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vote-With-Me/backend/issues"
+  },
+  "homepage": "https://github.com/Vote-With-Me/backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  }
+}
