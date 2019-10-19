@@ -2,11 +2,12 @@
   "name": "vote-with-me",
   "version": "1.0.0",
   "description": "Activate your Facebook network to promote voter registration",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "npm test",
     "devStart": "nodemon server.js",
-    "start": "node index.js"
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,20 @@
   "homepage": "https://github.com/Vote-With-Me/backend#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.7.5"
+    "mongoose": "^5.7.5",
+    "body-parser": "^1.19.0",
+    "camelcase": "^5.3.1",
+    "ejs": "^2.6.2",
+    "i18n": "^0.8.3",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
   }
 }
