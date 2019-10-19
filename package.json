@@ -4,7 +4,9 @@
   "description": "Activate your Facebook network to promote voter registration",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "devStart": "nodemon server.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
