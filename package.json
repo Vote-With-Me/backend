@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Vote-With-Me/backend#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.7.5",
     "body-parser": "^1.19.0",
     "camelcase": "^5.3.1",
